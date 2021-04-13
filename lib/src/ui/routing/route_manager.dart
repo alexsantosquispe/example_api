@@ -7,8 +7,8 @@ class RouterManager {
     switch (settings.name) {
       case HOME:
         return _getPage(settings, HomePage());
-      case LOGIN:
-        return _getPage(settings, LoginPage());
+      case SIGNUP:
+        return _getPage(settings, SignUpPage());
       case PRACTICE:
         return _getPage(settings, PracticePage());
       default:

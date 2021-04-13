@@ -60,7 +60,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      initialRoute: LOGIN,
+      initialRoute: SIGNUP,
       onGenerateRoute: RouterManager.generateRoute,
       debugShowCheckedModeBanner: false,
     );
